@@ -1,0 +1,137 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ff0000;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#info {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/SnPx9Ryr2jpzPBHpTkW5a4-1200-80.jpg');
+}
+
+.info-info {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.section-background {
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-background h2 {
+    padding-left: 40px;
+}
+
+#songs {
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/2017087630850834451/F53E805B2E0B4F899CDD4CCA4C96E8DD0DE13DC7/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+}
+
+#tickets {
+    background-color: black;
+}
+
+
+.ticket-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(20, 19, 19);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #dd3737;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#banda {
+    background-color: #333333; /* Fundo escuro */
+    padding: 50px 0; /* Espaçamento interno */
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-gallery img {
+    width: 400px;
+    height: auto; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    padding: 20px 0;
+}

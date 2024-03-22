@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do System of a Down</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#band">Banda</a></li>
+                <li><a href="#songs">Músicas</a></li>
+                <li><a href="#tickets">Ingressos</a></li>
+                <li><a href="#photos">Fotos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="info" class="section-background">
+        <h2>System of a Down</h2>
+        <p>Data do Show: 25 de Abril de 2024</p>
+        <p>Horário: 20:00</p>
+        <p>Não perca, esta será o último show de nossas vidas</p>
+        <!-- Adicione mais informações sobre a banda ou o show conforme necessário -->
+    </section>
+
+    <section id="songs" class="section-background">
+        <h2>Músicas</h2>
+        <!-- Lista de músicas -->
+        <ul>
+            <li>Chop Suey!</li>
+            <li>Toxicity</li>
+            <li>B.Y.O.B.</li>
+            <!-- Adicione mais músicas conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="tickets" class="section-background">
+        <div class="ticket-form">
+            <h2>Compra de Ingressos</h2>
+            <p>Garanta seu lugar agora!</p>
+            <!-- Formulário de compra de ingressos -->
+            <form action="processar_compra.php" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="quantidade">Tipo de Ingresso:</label>
+                    <select id="quantidade" name="quantidade" required>
+                        <option value="1">Inteira</option>
+                        <option value="2">Meia</option>
+                        <option value="3">Premium</option>
+                        <option value="4">Backstage</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantidade">Quantidade:</label>
+                    <select id="quantidade" name="quantidade" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <button type="submit">Comprar Ingressos</button>
+            </form>
+        </div>
+    </section>    
+
+    <section id="banda" class="section-background">
+        <h2>A Banda</h2>
+        <!-- Fotos de shows do System of a Down -->
+        <div class="photo-gallery">
+            <img src="https://media.gettyimages.com/id/1345569693/pt/foto/los-angeles-ca-armenian-american-singer-musician-songwriter-record-producer-and-political.jpg?s=612x612&w=0&k=20&c=gApeG1oecCRp6yPe75DaxRK8U3irVWKRp4VOlbA11p4=" alt="Show 1">
+            <img src="https://media.gettyimages.com/id/91146623/pt/foto/united-states-photo-of-system-of-a-down.jpg?s=612x612&w=0&k=20&c=tFpZXQi4cB_2oGF79Q0ssejIVLmNzYUJ8FbKwm87HPU=" alt="Show 2">
+            <img src="https://media.gettyimages.com/id/83151155/pt/foto/dave-pirner-of-soul-asylum-serj-tankian-of-system-of-a-down-david-bowie-and-dave-gahan-of.jpg?s=612x612&w=0&k=20&c=9vgrhAZcL7FZSxVW4cwirVV4hFWMgWk1nnKm8FbkP48=" alt="Show 3">
+            <!-- Adicione mais fotos conforme necessário -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Henrique Cipriani. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
